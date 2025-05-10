@@ -1,0 +1,155 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+:root {
+	--quote-height: 180px;
+}
+
+.reviews {
+	width: 55vw;
+	position: absolute;
+	top: 40vh;
+	left: 10vw;
+	height: 40vh;
+	overflow: hidden;
+	transition: .25s all ease;
+}
+
+.reviews .quotes {
+	font-size: 1.3em;
+	height: var(--quote-height);
+	position: absolute;
+	overflow-y: hidden;
+	font-family: 'Bad Script', cursive;
+}
+
+.reviews .quotes .item {
+	height: var(--quote-height);
+	margin-bottom: var(--quote-height);
+}
+
+.reviews .quotes .item:first-child {
+	animation: quote 30s infinite;
+}
+
+@keyframes quote {
+	20% { margin-top: 0; }
+	33% { margin-top: -360px; }
+	53% { margin-top: -360px; }
+	67% { margin-top: -720px; }
+	87% { margin-top: -720px; }
+	100% { margin-top: -1080px; }
+}
+
+.reviews .authors {
+	text-align: right;
+	font-size: 1.4em;
+	position: absolute;
+	top: 180px;
+	width: 100%;
+	height: 30px;
+	overflow-y: hidden;
+}
+
+.reviews .authors .item {
+	width: 100%;
+	text-align: right;
+	height: 30px;
+	margin-bottom: 30px;
+}
+
+.reviews .authors .item:first-child {
+	animation: author 30s infinite;
+}
+
+@keyframes author {
+	20% { margin-top: 0; }
+	33% { margin-top: -60px; }
+	53% { margin-top: -60px; }
+	67% { margin-top: -120px; }
+	87% { margin-top: -120px; }
+	100% { margin-top: -180px; }
+}
+
+.reviews .desn {
+	text-align: right;
+	font-size: 1em;
+	font-style: italic;
+	position: absolute;
+	top: 210px;
+	width: 100%;
+	height: 30px;
+	overflow-y: hidden;
+}
+
+.reviews .desn .item {
+	width: 100%;
+	text-align: right;
+	height: 30px;
+	margin-bottom: 30px;
+}
+
+.reviews .desn .item:first-child {
+	animation: desn 30s infinite;
+}
+
+@keyframes desn {
+	20% { margin-top: 0; }
+	33% { margin-top: -60px; }
+	53% { margin-top: -60px; }
+	67% { margin-top: -120px; }
+	87% { margin-top: -120px; }
+	100% { margin-top: -180px; }
+}
+
+
+@media screen and (max-aspect-ratio: 1/1) {
+	.reviews {
+		width: 80vw;
+		top: 25vh;
+		height: 40vh;
+		line-height: 2em;
+		font-size: 0.8em;
+	}
+
+	.reviews .quotes {
+		height: 100%;
+		font-size: 1.5em;
+	}
+
+	.reviews .quotes .item {
+		height: 500px;
+		margin-bottom: 500px;
+	}
+
+	@keyframes quote {
+		20% { margin-top: 0; }
+		33% { margin-top: -1000px; }
+		53% { margin-top: -1000px; }
+		67% { margin-top: -2000px; }
+		87% { margin-top: -2000px; }
+		100% { margin-top: -3000px; }
+	}
+	
+	.reviews .authors {
+		height: 100px;
+		top: 250px;
+	}
+
+	.reviews .authors .item {
+		height: 100px;
+		margin-bottom: 100px;
+	}
+
+	@keyframes author {
+		20% { margin-top: 0; }
+		33% { margin-top: -200px; }
+		53% { margin-top: -200px; }
+		67% { margin-top: -400px; }
+		87% { margin-top: -400px; }
+		100% { margin-top: -600px; }
+	}
+
+	.reviews .desn {
+		top: 270px;
+	}
+}*/

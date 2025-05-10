@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} solutionsaccess\.in [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://solutionsaccess.in/$1 [R,L]
